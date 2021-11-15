@@ -14,7 +14,6 @@
   --background-block-secondary-color: #f5f4fa;
   --background-color-third-color: #ffffff;
 }
-
 p, 
 h1, 
 h2, 
@@ -44,7 +43,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--main-title-color);
 }
-
 .list {
   list-style: none;
 }
@@ -131,6 +129,9 @@ body {
 
 /* --------------HERO---------------- */
 .hero-title {
+  padding-right: 236px;
+  padding-left: 236px;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -138,9 +139,6 @@ body {
   min-width: 696px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-right: 236px;
-  padding-left: 236px;
-  margin-bottom: 30px;
   color: var(--main-title-color);
 }
 .hero-btn {
@@ -196,12 +194,12 @@ body {
 }
 /* -----------------ABOUT-US-------------- */
 .about-us-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
   color: var(--second-title-color);
 }
 .about-us {
@@ -215,29 +213,29 @@ body {
 }
 /* -----------------OUR-TEAM--------------- */
 .our-team-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 50px;
   color: var(--second-title-color);
 }
 .our-team-subtitle {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 10px;
   color: var(--second-text-color);
 }
 .our-team-text {
+  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 30px;
   color: var(--first-text-color);
 }
 .our-team {
@@ -292,13 +290,13 @@ body {
 }
 .footer-logo {
   display: block;
+  margin-bottom: 20px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 .footer-web {
   color: var(--accent-color);
@@ -319,18 +317,22 @@ body {
 }
 .filter-list {
   display: flex;
+  justify-content: center;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
 }
 .filter-examples {
   display: flex;
   flex-wrap: wrap;
 }
 .filter-examples-item {
-  width: 370px; 
-  border-bottom: 1px #EEEEEE;
+  padding-bottom: 20px;
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-bottom: 20px;
-}
+  width: 370px; 
+  border-bottom: 1px #EEEEEE;
+ }
 .filter-examples-item:nth-child(3n) {
   margin-right: 0;
 }
@@ -338,6 +340,8 @@ body {
   margin-bottom: 0;
 }
 .filter-button {
+  padding: 6px 22px;
+  margin-bottom: 34px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -345,7 +349,9 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
   color: var(--second-title-color);
+  border-color: transparent;
   background-color: var(--background-block-secondary-color);
 }
 .filter-button:hover,
@@ -354,21 +360,21 @@ body {
   color: var(--button-color);
 }
 .filter-examples-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   text-align: left;
   letter-spacing: 0.06em;
-  margin-bottom: 4px;
   color: var(--second-title-color);
   background-color: var(--background-color-third-color);
 }
 .filter-examples-text {
+  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   text-align: left;
   letter-spacing: 0.03em;
-  padding-bottom: 20px;
   color: var(--first-text-color);
   background-color: var(--background-color-third-color);
 }
